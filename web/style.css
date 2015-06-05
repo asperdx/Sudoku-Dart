@@ -1,0 +1,56 @@
+body{
+
+	background: #faf8ef;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+}
+
+#pageTitle {
+
+	text-align:center;
+	font-family: 'Raleway', sans-serif;
+	font-size: 64px;
+
+}
+
+#container{
+	
+
+}
+table {
+    margin-left: auto;
+    margin-right: auto;
+    table-layout: fixed;
+    text-align: center;
+    border-collapse: collapse;
+
+}
+
+.default{
+
+
+	font-weight: bold;
+}
+
+td {
+    border: 1px solid #000;
+    	width: calc(40vw / 9);
+    height: calc(40vw / 9);
+   
+}
+
+td:nth-child(3), td:nth-child(6), td:nth-child(9){
+    border-right-width: 3px;
+}
+
+tr:nth-child(3) td, tr:nth-child(6) td, tr:nth-child(9) td{
+    border-bottom-width: 3px;
+}
+
+tr:nth-child(1) td{
+    border-top-width: 3px;
+}
+
+td:nth-child(1) {
+    border-left-width: 3px;
+}

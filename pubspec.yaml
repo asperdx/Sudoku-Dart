@@ -1,0 +1,7 @@
+name: kllrshrksudoku
+version: 1.0.1
+author: Michael <michaelksasper@gmail.com>
+description: A Sudoku web game
+homepage: http://mikhailstudios.com
+dependencies:
+  browser: any
